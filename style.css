@@ -1,0 +1,141 @@
+.tooltip {
+  position: absolute;
+  font-size: 15px;
+  font-family: times;
+  font-weight: bold;
+  text-align: left;
+  color: #091D2C;
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.null {
+  background: #000000;
+  opacity: 0;
+}
+
+.text {
+  font-size: 25px;
+  font-family: times;
+  font-weight: bold;
+  color: white;
+  clear: both;
+}
+
+.text2 {
+  clear: both;
+}
+
+.text3 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: times;
+  color: white;
+}
+
+.text4 {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: times;
+  color: white;
+}
+
+#left_word {
+  width: 48%;
+  line-height: absolute;
+  padding: 10px;
+  float: left;
+}
+
+#right_word {
+  width: 48%;
+  line-height: absolute;
+  padding: 10px;
+  float: left;
+}
+
+#center_word {
+  width: 96%;
+  line-height: absolute;
+  padding: 10px;
+  float: left;
+}
+
+#all {
+  width: 1160px;
+  padding: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  margin-left: -580px;
+}
+
+#map {
+  width: absolute;
+  line-height: absolute;
+  padding: 10px;
+  float: left;
+}
+
+#left {
+  width: absolute;
+  line-height: absolute;
+  padding: 10px;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: times;
+  color: white;
+}
+
+/* button {
+  background-color: #F4C117;
+  border: none;
+  color: black;
+  padding: 3px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+
+} */
+button {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #F4C117;
+  border-radius: 0.3em;
+  color: #F4C117;
+  cursor: pointer;
+  /* display: -webkit-box; */
+  /* display: flex; */
+  align-self: center;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 2px;
+  padding: 5px 5px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+button:hover, button:focus {
+  color: #fff;
+  outline: 0;
+}
+
+button {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0 0 40px 40px #F4C117 inset;
+}
